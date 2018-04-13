@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_after_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gpcgldh.collegeapp.AfterLoginActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_afterlogin">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_afterlogin">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar_afterlogin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_margin="15dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar_afterlogin"
+        android:id="@+id/buttonlogin2_n"
+        android:text="Notification"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="#1a237e"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonlogin2_n"
+        android:text="Feedback"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:id="@+id/button_feedback"
+        android:textColor="#ffffff"
+        android:background="#1a237e"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_feedback"
+        android:text="Account Settings"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="#1a237e"
+        android:id="@+id/button_newpassword"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_feedback"
+            android:text="ADD NEW ACCOUNT"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="#1a237e"
+            android:id="@+id/button_newuser"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_feedback"
+            android:text="Delete Notification"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="#1a237e"
+            android:id="@+id/button_deletenotif"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_feedback"
+            android:text="LOGOUT"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="#1a237e"
+            android:id="@+id/button_logout"
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

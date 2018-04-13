@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gpcgldh.collegeapp.Aboutappactivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_appteam">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_appteam">
+
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView18"
+        android:layout_below="@+id/appbar_appteam">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I am eagerly indebted to S.R.S GPCG for help, encouragement and cooperation to build this app. I extend my sincere thanks to the CE/IT department for trusting and motivating me."
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GUIDANCE FROM:"
+                android:textColor="#1a237e"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Er. Mohinder Pal Singh (Principal)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Mr. Manoj K Jambla (H.O.D)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Mr. Gaurav Singh Grewal (Developer at:\n   Ansh InfoTech Ludhiana)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPER:"
+                android:textColor="#1a237e"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:scaleType="center"
+                android:src="@drawable/me" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ms. Jaanvi Juneja\nComputer Engineering Final Year\nBatch(2014-2017)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

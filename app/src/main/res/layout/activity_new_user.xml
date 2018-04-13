@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loginactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpcgldh.collegeapp.NewUserActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_newuser">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_newuser"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar_newuser">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:id="@+id/editText_username"
+            android:hint="User ID"
+            android:background="@color/wallet_hint_foreground_holo_light"
+            android:textSize="30sp"
+            android:layout_below="@+id/textView38"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:id="@+id/editText2_password"
+            android:hint="Password"
+            android:layout_below="@+id/editText_username"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="30sp"
+            android:background="@color/wallet_hint_foreground_holo_light"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp" />
+
+        <Button
+            android:text="SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/button_submit"
+            android:background="#1a237e"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:textSize="30sp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

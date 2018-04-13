@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedbackactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context="com.gpcgldh.collegeapp.feedbackactivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_dept">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_department"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar_dept">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText4_namefb"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:hint="Name"
+            android:background="@color/wallet_hint_foreground_holo_light"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText5_idfb"
+            android:layout_marginTop="30dp"
+            android:background="@color/wallet_hint_foreground_holo_light"
+            android:hint="Email Address"
+            android:textSize="30sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText6_messagefb"
+            android:layout_marginTop="30dp"
+            android:background="@color/wallet_hint_foreground_holo_light"
+            android:hint="Your Message"
+            android:textSize="30sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp" />
+
+        <Button
+            android:text="SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2_submit_fb"
+            android:layout_marginTop="30dp"
+            android:background="#1a237e"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

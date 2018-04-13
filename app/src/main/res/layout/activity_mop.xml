@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       tools:context="com.gpcgldh.collegeapp.MOP">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_dept">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_department"/>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView14"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/appbar_dept">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Modern Office Practice"
+                android:id="@+id/textView65"
+                android:textSize="20sp"
+                android:textIsSelectable="false"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="This course is related for performing various official methods , operations and procedures with the help of modern methods and equipments."
+                android:id="@+id/textView66"
+                android:layout_below="@+id/textView65"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:gravity="center" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/committee"
+                    android:id="@+id/imageView10"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME OF THE LAB"
+                android:id="@+id/textView106"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* MODERN OFFICE LAB"
+                android:id="@+id/textView107"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* TYPING LAB(ENGLISH)"
+                android:id="@+id/textView108"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* TYPING LAB(PUNJAB)"
+                android:id="@+id/textView109"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* STENOGRAPHY LAB"
+                android:id="@+id/textView110"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* CONFERENCE LAB"
+                android:id="@+id/textView111"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* COMMUNICATION LAB"
+                android:id="@+id/textView112"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

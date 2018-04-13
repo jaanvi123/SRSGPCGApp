@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpcgldh.collegeapp.ECE">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_dept">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_department"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView10"
+        android:layout_below="@+id/appbar_dept"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ECE is about electronic components, integrated circuits and microprocessors and consists of design, fabricate, test, maintain and supervise the manufacture of electronic equipment. This branch Of Engineering has a key place in the field of computers, Information Technology, Electrical, power system operations, communication systems etc.."
+                android:id="@+id/textView58"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/ecep"
+                        android:id="@+id/imageView15"
+                        android:layout_weight="0.73"
+                        android:layout_marginTop="10dp" />
+
+                    <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ece"
+                    android:id="@+id/imageView8"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.11" />
+
+                </LinearLayout>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME OF THE LAB"
+                android:id="@+id/textView57"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* T.V ENGG. LAB"
+                android:id="@+id/textView98"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* COMMUNICATION LAB"
+                android:id="@+id/textView99"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* INSTRUMENTATION &amp; P.L.C LAB"
+                android:id="@+id/textView100"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* DIGITAL ELECTRONICS &amp; MICROPROCESSOR LAB"
+                android:id="@+id/textView101"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* ELECTRICAL MACHINE LAB"
+                android:id="@+id/textView102"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* BASIC ELECTRONICS LAB"
+                android:id="@+id/textView103"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* COMPUTER LAB"
+                android:id="@+id/textView104"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* PROJECT LAB"
+                android:id="@+id/textView105"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

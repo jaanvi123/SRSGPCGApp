@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">College App</string>
+    <string name="fashion_designing_cp">•	Competencies to be developed in the students for gainful employment are to select suitable fabric, Design, draft and prepare patterns. Prepare economical layout, estimate cloth requirement, to manage the production, etc..\n
+•	Use of computers in the field of Fashion Designing.
+•	There are enormous range of industries and jobs in fashion, corporate wear and uniform design.
+•	Fashion trends in Fabric are also key to the Interior Design and retail industries, which are dependent on fashion graduates skills in promotion and communication.
+•	May get jobs with established designer, media organizations.
+•	Jobs in textile companies for the ready-to-wear manufacturing of fabrics.
+•	Costume Designing for films/ theatre/ large retailers/ chain stores merchandisers/ export companies.
+•	Self employment (opening one’s own company or boutique)
+</string>
+    <string name="principal_text"> It is a moment filled with joy and satisfaction as we present our talent to the industry. Our students have not only undergone rigorous honing of academic skills, but have also kept pace with the world in extra curricular activities. I am sure that having passed through such stringent exercises; our students today would be second to none in this highly competitive world. This institute, ever since its inception, has been continuously striving for excellence in all areas. The infrastructural developments have been instep with the state-of-the-art requirements. Scores of students have excelled in national level entrance tests scoring phenomenally high marks. The increasing number of our students being placed in well renowned National and Multi-National companies speaks volumes of our talent. I wish all my students the best in their endeavors in life and assure the industry that none of student would ever fail them in their tasks &amp; objectives. Er. Mohinder Pal Singh </string>
+    <string name="title_activity_college_location">Map</string>
+    <string name="preference_name">gpcgldh_pref</string>
+    <string name="key_first_run">first_run</string>
+</resources>

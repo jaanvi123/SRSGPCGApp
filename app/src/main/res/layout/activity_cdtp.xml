@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpcgldh.collegeapp.CDTP">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_dept">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_department"/>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView16"
+        android:layout_below="@+id/appbar_dept"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Community Development Through Polytechnics(CDTP)"
+                android:id="@+id/textView69"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Scheme of Community Development Through Polytechnics was started by Ministry of Human Resource Development in February ,2010.This scheme is meant for SC/STs,OBC,women ,school dropouts,minorities,physically disabled, economically weaker sections of the society and other under privileged persons. In terms of career options for most of such people, quality education and higher technical and professional education is unaffordable. Indian Informal sector is to depend upon relatively low paid man power trained through non-formal system of skill development .So there is an urgent need to train millions of persons through a countrywide network of non-formal skill development. This network can also help in adoption of appropriate technologies among rural people and slum dwellers,sustainable use of technology,repair and maintenance services and free service camps from time to time."
+                android:id="@+id/textView70"
+                android:layout_below="@+id/textView69"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="55dp"
+                android:textSize="18sp"
+                android:textAlignment="center" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

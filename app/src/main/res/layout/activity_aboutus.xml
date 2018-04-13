@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gpcgldh.collegeapp.Aboutus">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_dept">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_department"/>
+    </android.support.design.widget.AppBarLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/appbar_dept">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="16dp"
+            android:layout_margin="15dp" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:background="@color/accent_material_light"
+                android:layout_marginRight="16dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/textView71_PD"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/pd"
+                        android:orientation="vertical"
+                        android:scaleType="centerCrop">
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Principal's Desk"
+
+                        android:background="#000000"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:background="@color/accent_material_light"
+                android:layout_marginRight="16dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/textView72_ad"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/notes"
+                        android:orientation="vertical"
+                        android:scaleType="centerCrop"
+                        >
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Admission"
+
+                        android:background="#000000"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_margin="15dp" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+
+                android:background="@color/accent_material_light"
+                android:layout_marginRight="16dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/textView73_vm"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+
+                        android:background="@drawable/vandm"
+                        android:orientation="vertical"
+                        android:scaleType="centerCrop">
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Vision and Mission"
+
+                        android:textColor="#ffffff"
+                        android:background="#000000"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="Sports"-->
+                <!--android:id="@+id/textView73_sports"-->
+                <!--android:gravity="center"-->
+                <!--android:background="#1a237e"-->
+                <!--android:textSize="22dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#ffffff"/>-->
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@color/accent_material_light"
+                android:layout_marginRight="16dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/textView74_grc"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/acomm"
+                        android:orientation="vertical"
+                        android:scaleType="centerCrop">
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="G.R.C"
+
+                        android:background="#000000"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
